@@ -22,6 +22,8 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.THAUMIUM.get());
                         output.accept(ModItems.VOID_METAL.get());
 
+                        output.accept(ModItems.CHISEL.get());
+
                     }).build());
 
     public static final RegistryObject<CreativeModeTab> THAUMCRAFT_BLOCKS_TAB = CREATIVE_MODE_TABS.register("thaumcraft_blocks_tab",
