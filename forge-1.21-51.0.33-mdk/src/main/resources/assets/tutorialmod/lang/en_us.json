@@ -1,4 +1,14 @@
 {
   "item.tutorialmod.thaumium": "Thaumium ignot",
-  "item.tutorialmod.void_metal": "Void metal ignot"
+  "item.tutorialmod.void_metal": "Void metal ignot",
+  "item.tutorialmod.amber": "Amber",
+
+  "block.tutorialmod.amber_ore": "Amber ore",
+  "block.tutorialmod.deepslate_amber_ore": "Deepslate amber ore",
+
+  "block.tutorialmod.thaumium_block": "Block of thaumium",
+  "block.tutorialmod.void_metal_block": "Block of void metal",
+
+  "creativetab.tutorialmod.thaumcraft_items": "Thaumcraft items",
+  "creativetab.tutorialmod.thaumcraft_blocks": "Thaumcraft blocks"
 }

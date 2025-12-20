@@ -15,6 +15,9 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> VOID_METAL = ITEMS.register("void_metal",
             () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> AMBER = ITEMS.register("amber",
+            () -> new Item(new Item.Properties()));
+
 
 
 
