@@ -13,6 +13,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.wasdory.tutorialmod.Item.ModItems;
 import net.wasdory.tutorialmod.TutorialMod;
+import net.wasdory.tutorialmod.block.custom.MagicBlock;
 
 import java.util.function.Supplier;
 
@@ -36,6 +37,10 @@ public class ModBlocks {
     public static final RegistryObject<Block> DEEPSLATE_AMBER_ORE = registryBlock("deepslate_amber_ore",
             () -> new DropExperienceBlock(UniformInt.of(3, 6), BlockBehaviour.Properties.of()
                     .strength( 5f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE)));
+
+    public static final RegistryObject<Block> MAGIC_BLOCK = registryBlock("magic_block",
+            () -> new MagicBlock(BlockBehaviour.Properties.of()
+                    .strength( 2f).requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
 
 
 
