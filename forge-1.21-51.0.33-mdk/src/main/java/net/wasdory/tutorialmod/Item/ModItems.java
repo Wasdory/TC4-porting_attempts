@@ -6,6 +6,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.wasdory.tutorialmod.Item.custom.ChiselItem;
+import net.wasdory.tutorialmod.Item.custom.FuelItem;
 import net.wasdory.tutorialmod.TutorialMod;
 
 public class ModItems {
@@ -21,6 +22,11 @@ public class ModItems {
 
     public static final RegistryObject<Item> CHISEL = ITEMS.register("chisel",
             () -> new ChiselItem(new Item.Properties().durability(32)));
+
+    public static final RegistryObject<Item> ZOMBIE_BRAIN = ITEMS.register("zombie_brain",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.ZOMBIE_BRAIN)));
+    public static final RegistryObject<Item> ALUMENTUM = ITEMS.register( "alumentum",
+            () -> new FuelItem(new Item.Properties(), 6400));
 
 
 

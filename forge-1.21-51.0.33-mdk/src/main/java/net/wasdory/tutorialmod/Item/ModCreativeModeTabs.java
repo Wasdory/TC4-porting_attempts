@@ -22,6 +22,9 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.THAUMIUM.get());
                         output.accept(ModItems.VOID_METAL.get());
 
+                        output.accept(ModItems.ZOMBIE_BRAIN.get());
+                        output.accept(ModItems.ALUMENTUM.get());
+
                         output.accept(ModItems.CHISEL.get());
 
                     }).build());
