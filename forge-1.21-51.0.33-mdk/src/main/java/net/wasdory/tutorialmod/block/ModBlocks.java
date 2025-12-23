@@ -40,7 +40,7 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> MAGIC_BLOCK = registryBlock("magic_block",
             () -> new MagicBlock(BlockBehaviour.Properties.of()
-                    .strength( 2f).requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
+                    .strength( 2f).noLootTable().sound(SoundType.AMETHYST)));
 
 
 

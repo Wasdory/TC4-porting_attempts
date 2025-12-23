@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "tutorialmod:void_metal_block"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_void_metal": {
+      "conditions": {
+        "items": [
+          {
+            "items": "tutorialmod:void_metal"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_void_metal"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "tutorialmod:void_metal_block"
+    ]
+  }
+}

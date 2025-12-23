@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.25,
+  "group": "amber",
+  "ingredient": {
+    "item": "tutorialmod:amber_ore"
+  },
+  "result": {
+    "id": "tutorialmod:amber"
+  }
+}

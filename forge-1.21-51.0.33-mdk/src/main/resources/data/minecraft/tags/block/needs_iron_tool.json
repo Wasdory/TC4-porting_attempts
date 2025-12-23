@@ -1,9 +1,0 @@
-{
-  "replace": false,
-  "values": [
-    "tutorialmod:thaumium_block",
-    "tutorialmod:void_metal_block",
-    "tutorialmod:amber_ore",
-    "tutorialmod:deepslate_amber_ore"
-  ]
-}
