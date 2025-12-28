@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "tutorialmod:block/magic_stone",
+    "side": "tutorialmod:block/magic_stone",
+    "top": "tutorialmod:block/magic_stone"
+  }
+}

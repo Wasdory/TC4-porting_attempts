@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_magic_stone": {
+      "conditions": {
+        "items": [
+          {
+            "items": "tutorialmod:magic_stone"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "tutorialmod:magic_stone_fence_gate"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_magic_stone"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "tutorialmod:magic_stone_fence_gate"
+    ]
+  }
+}

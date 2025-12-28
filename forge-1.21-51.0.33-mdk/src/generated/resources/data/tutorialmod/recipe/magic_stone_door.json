@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "group": "magic_stone",
+  "key": {
+    "#": {
+      "item": "tutorialmod:magic_stone"
+    }
+  },
+  "pattern": [
+    "##",
+    "##",
+    "##"
+  ],
+  "result": {
+    "count": 3,
+    "id": "tutorialmod:magic_stone_door"
+  }
+}
