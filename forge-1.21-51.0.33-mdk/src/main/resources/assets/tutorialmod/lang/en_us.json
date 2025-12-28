@@ -7,18 +7,32 @@
   "item.tutorialmod.alumentum": "Alumentum",
 
   "item.tutorialmod.chisel": "Chisel",
-  "block.tutorialmod.magic_block": "Magic block",
+  "block.tutorialmod.arcane_block": "Arcane block",
 
   "block.tutorialmod.amber_ore": "Amber ore",
   "block.tutorialmod.deepslate_amber_ore": "Deepslate amber ore",
 
   "block.tutorialmod.thaumium_block": "Block of thaumium",
   "block.tutorialmod.void_metal_block": "Block of void metal",
+  "block.tutorialmod.magic_stone": "Magic stone",
+
+  "block.tutorialmod.magic_stone_stairs": "Magic stone stairs",
+  "block.tutorialmod.magic_stone_slab": "Magic stone slab",
+
+  "block.tutorialmod.magic_stone_button": "Magic stone button",
+  "block.tutorialmod.magic_stone_pressure_plate": "Magic stone pressure plate",
+
+  "block.tutorialmod.magic_stone_fence": "Magic stone fence",
+  "block.tutorialmod.magic_stone_fence_gate": "Magic stone fence gate",
+  "block.tutorialmod.magic_stone_wall": "Magic stone wall",
+
+  "block.tutorialmod.magic_stone_door": "Magic stone door",
+  "block.tutorialmod.magic_stone_trapdoor": "Magic stone trapdoor",
 
   "creativetab.tutorialmod.thaumcraft_items": "Thaumcraft items",
   "creativetab.tutorialmod.thaumcraft_blocks": "Thaumcraft blocks",
 
-  "tooltip.tutorialmod.magic_block.tooltip": "This block is quite §9MAGICAL§r",
+  "tooltip.tutorialmod.arcane_block.tooltip": "This block is quite §9MAGICAL§r",
   "tooltip.tutorialmod.chisel.shift_down": "This Item changes certain blocks",
   "tooltip.tutorialmod.chisel": "Press §eShift§r for more information",
   "tooltip.tutorialmod.void_metal": "Feels too cold..."

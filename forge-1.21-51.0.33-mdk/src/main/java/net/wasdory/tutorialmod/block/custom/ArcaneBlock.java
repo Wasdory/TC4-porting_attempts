@@ -17,13 +17,12 @@ import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.phys.BlockHitResult;
-import net.wasdory.tutorialmod.Item.ModItems;
 import net.wasdory.tutorialmod.util.ModTags;
 
 import java.util.List;
 
-public class MagicBlock extends Block {
-    public MagicBlock(Properties properties) {
+public class ArcaneBlock extends Block {
+    public ArcaneBlock(Properties properties) {
         super(properties);
     }
 
@@ -54,7 +53,7 @@ public class MagicBlock extends Block {
 
     @Override
     public void appendHoverText(ItemStack pStack, Item.TooltipContext pContext, List<Component> pTooltipComponents, TooltipFlag pTooltipFlag) {
-        pTooltipComponents.add(Component.translatable("tooltip.tutorialmod.magic_block.tooltip"));
+        pTooltipComponents.add(Component.translatable("tooltip.tutorialmod.arcane_block.tooltip"));
         super.appendHoverText(pStack, pContext, pTooltipComponents, pTooltipFlag);
     }
 }

@@ -28,12 +28,28 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
     protected void generate() {
         dropSelf(ModBlocks.THAUMIUM_BLOCK.get());
         dropSelf(ModBlocks.VOID_METAL_BLOCK.get());
+        dropSelf(ModBlocks.MAGIC_STONE.get());
         // dropSelf(ModBlocks.MAGIC_BLOCK.get());
 
         this.add(ModBlocks.AMBER_ORE.get(),
                 block -> createMultipleOreDrops(ModBlocks.AMBER_ORE.get(), ModItems.AMBER.get(), 1, 3));
         this.add(ModBlocks.DEEPSLATE_AMBER_ORE.get(),
                 block -> createMultipleOreDrops(ModBlocks.DEEPSLATE_AMBER_ORE.get(), ModItems.AMBER.get(), 2, 4));
+
+        dropSelf(ModBlocks.MAGIC_STONE_STAIRS.get());
+        this.add(ModBlocks.MAGIC_STONE_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.MAGIC_STONE_SLAB.get()));
+
+        dropSelf(ModBlocks.MAGIC_STONE_PRESSURE_PLATE.get());
+        dropSelf(ModBlocks.MAGIC_STONE_BUTTON.get());
+
+        dropSelf(ModBlocks.MAGIC_STONE_FENCE.get());
+        dropSelf(ModBlocks.MAGIC_STONE_FENCE_GATE.get());
+        dropSelf(ModBlocks.MAGIC_STONE_WALL.get());
+
+        this.add(ModBlocks.MAGIC_STONE_DOOR.get(),
+                block -> createDoorTable(ModBlocks.MAGIC_STONE_DOOR.get()));
+        dropSelf(ModBlocks.MAGIC_STONE_TRAPDOOR.get());
 
     }
 

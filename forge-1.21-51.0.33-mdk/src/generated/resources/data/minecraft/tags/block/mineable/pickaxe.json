@@ -4,6 +4,7 @@
     "tutorialmod:void_metal_block",
     "tutorialmod:amber_ore",
     "tutorialmod:deepslate_amber_ore",
-    "tutorialmod:magic_block"
+    "tutorialmod:arcane_block",
+    "tutorialmod:magic_stone"
   ]
 }

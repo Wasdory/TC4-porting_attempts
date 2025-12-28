@@ -1,4 +1,7 @@
-// 1.21	2025-12-23T18:41:08.935282889	Tags for minecraft:block mod id tutorialmod
-d7a31d5bbf5fa51459d91403060d69c02dc99452 data/minecraft/tags/block/mineable/pickaxe.json
-f30a6367dbc22bbef01d6bf2a992f645005f83b5 data/minecraft/tags/block/needs_diamond_tool.json
+// 1.21	2025-12-28T21:13:31.955527017	Tags for minecraft:block mod id tutorialmod
+7071f8d03664d4d830ca38d4511fb7cee68841d0 data/minecraft/tags/block/fence_gates.json
+7e2fb779d1813cf5fa7eb6e2a7c9e7cb41a59a71 data/minecraft/tags/block/fences.json
+73c20eded159cbd455347b40c6248094ba6dcef4 data/minecraft/tags/block/mineable/pickaxe.json
+329c2bf0529d1f417ab1f4541f8043c693466b13 data/minecraft/tags/block/needs_diamond_tool.json
 35de25951df988f547a1f00a5160f6082785e81b data/minecraft/tags/block/needs_iron_tool.json
+04e58e449cc6397acb86114ec1f21b552f6211d3 data/minecraft/tags/block/walls.json

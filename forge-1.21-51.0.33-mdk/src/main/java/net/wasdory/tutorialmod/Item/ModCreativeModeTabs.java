@@ -36,11 +36,26 @@ public class ModCreativeModeTabs {
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModBlocks.THAUMIUM_BLOCK.get());
                         output.accept(ModBlocks.VOID_METAL_BLOCK.get());
+                        output.accept(ModBlocks.MAGIC_STONE.get());
 
                         output.accept(ModBlocks.AMBER_ORE.get());
                         output.accept(ModBlocks.DEEPSLATE_AMBER_ORE.get());
 
-                        output.accept(ModBlocks.MAGIC_BLOCK.get());
+                        output.accept(ModBlocks.ARCANE_BLOCK.get());
+
+
+                        output.accept(ModBlocks.MAGIC_STONE_STAIRS.get());
+                        output.accept(ModBlocks.MAGIC_STONE_SLAB.get());
+
+                        output.accept(ModBlocks.MAGIC_STONE_PRESSURE_PLATE.get());
+                        output.accept(ModBlocks.MAGIC_STONE_BUTTON.get());
+
+                        output.accept(ModBlocks.MAGIC_STONE_FENCE.get());
+                        output.accept(ModBlocks.MAGIC_STONE_FENCE_GATE.get());
+                        output.accept(ModBlocks.MAGIC_STONE_WALL.get());
+
+                        output.accept(ModBlocks.MAGIC_STONE_DOOR.get());
+                        output.accept(ModBlocks.MAGIC_STONE_TRAPDOOR.get());
 
                     }).build());
 

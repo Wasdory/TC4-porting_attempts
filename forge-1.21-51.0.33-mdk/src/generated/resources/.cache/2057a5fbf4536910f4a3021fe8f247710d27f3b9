@@ -1,7 +1,11 @@
-// 1.21	2025-12-23T18:07:32.597931334	Item Models: tutorialmod
+// 1.21	2025-12-28T21:13:31.956435138	Item Models: tutorialmod
 57975301ab01509002181f98c2dc728d747350a0 assets/tutorialmod/models/item/alumentum.json
 c3ebb311445332fc62745edfaef6fcf410f263d3 assets/tutorialmod/models/item/amber.json
 69a45d9eda7fcbbb46f3a4bf568243a7b2141123 assets/tutorialmod/models/item/chisel.json
+c5ec94ba6084efaf2c851b28f62f28adf60550d1 assets/tutorialmod/models/item/magic_stone_button.json
+7892df9d1acbd2c579f4e7e1eb9ea1cdb8f6293c assets/tutorialmod/models/item/magic_stone_door.json
+6c9f277dc6bc5bef3747749bad97cd172fbf7c82 assets/tutorialmod/models/item/magic_stone_fence.json
+d2868ec314533ae79f31f547ec37d6deffacdd87 assets/tutorialmod/models/item/magic_stone_wall.json
 ae086ce9260b1e122f7dcbcc10eec9b08afbb27b assets/tutorialmod/models/item/thaumium.json
 8525b7a49e84ebaefe52a2456067697ddf38f432 assets/tutorialmod/models/item/void_metal.json
 06bd0ec04cc46ac1b17f44d7134aef42309e4095 assets/tutorialmod/models/item/zombie_brain.json

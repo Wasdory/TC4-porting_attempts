@@ -1,5 +1,15 @@
-// 1.21	2025-12-23T17:46:34.423708959	Loot Tables
+// 1.21	2025-12-28T21:13:31.9543142	Loot Tables
 63ecbee17f4c33f5e7c34557f1cd7d5bcec76bb3 data/tutorialmod/loot_table/blocks/amber_ore.json
 6ba9b53da6359944c026c964fd8de3d1c72f9709 data/tutorialmod/loot_table/blocks/deepslate_amber_ore.json
+2179177ebd3cd2ce797c2f03a5340dd3a06f35da data/tutorialmod/loot_table/blocks/magic_stone.json
+4d4c70b619f3c5656712154dba3e2917821af6f3 data/tutorialmod/loot_table/blocks/magic_stone_button.json
+160eff436e757336caf470f201d00267ad42caa2 data/tutorialmod/loot_table/blocks/magic_stone_door.json
+b884c2b39d3388932d3e2b6cf0555b52f5aae2a4 data/tutorialmod/loot_table/blocks/magic_stone_fence.json
+de0bd5c430da34be67ce1c09ec2b47dfc2551287 data/tutorialmod/loot_table/blocks/magic_stone_fence_gate.json
+7ef6bbc70e4f0aeabbcb2b0dae51d27151279346 data/tutorialmod/loot_table/blocks/magic_stone_pressure_plate.json
+2775c0df8f684a6ae5a53bef41e4eff392257592 data/tutorialmod/loot_table/blocks/magic_stone_slab.json
+333046482f37d8461fb7d2907bd71cb412386edf data/tutorialmod/loot_table/blocks/magic_stone_stairs.json
+80dcefa19a96237538e019644a8c8fa3a55def51 data/tutorialmod/loot_table/blocks/magic_stone_trapdoor.json
+4f0df0e27a7fb18243b84127d093674d636b3a09 data/tutorialmod/loot_table/blocks/magic_stone_wall.json
 8392f82872a2c2dd466751c503687a7ae8342e58 data/tutorialmod/loot_table/blocks/thaumium_block.json
 bfbe09af0042059fee52adec71c83705abdb327b data/tutorialmod/loot_table/blocks/void_metal_block.json
