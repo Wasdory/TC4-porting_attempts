@@ -14,8 +14,8 @@ public class ModDataComponentTypes {
     public static final DeferredRegister<DataComponentType<?>> DATA_COMPONENT_TYPES =
             DeferredRegister.create(Registries.DATA_COMPONENT_TYPE, TutorialMod.MOD_ID);
 
-    public static final RegistryObject<DataComponentType<BlockPos>> COORDINATES = register("coordinates",
-            builder -> builder.persistent(BlockPos.CODEC));
+    public static final DataComponentType<BlockPos> COORDINATES =
+            DataComponentType.<BlockPos>builder().persistent(BlockPos.CODEC).build();
 
 
     private static <T>RegistryObject<DataComponentType<T>> register(String name, UnaryOperator<DataComponentType.Builder<T>> builderOperator) {

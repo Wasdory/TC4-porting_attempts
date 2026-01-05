@@ -48,7 +48,7 @@ public class ChiselItem extends Item {
                         item -> pContext.getPlayer().onEquippedItemBroken(item, EquipmentSlot.MAINHAND));
                 level.playSound(null, pContext.getClickedPos(), SoundEvents.GRINDSTONE_USE, SoundSource.BLOCKS);
 
-                pContext.getItemInHand().set(ModDataComponentTypes.COORDINATES.get(), pContext.getClickedPos());
+                pContext.getItemInHand().set(ModDataComponentTypes.COORDINATES, pContext.getClickedPos());
             }
         }
 
@@ -63,8 +63,8 @@ public class ChiselItem extends Item {
             pTooltipComponents.add(Component.translatable("tooltip.tutorialmod.chisel"));
         }
 
-        if (pStack.get(ModDataComponentTypes.COORDINATES.get()) != null) {
-            pTooltipComponents.add(Component.literal("Last block changed at " + pStack.get(ModDataComponentTypes.COORDINATES.get())));
+        if (pStack.get(ModDataComponentTypes.COORDINATES) != null) {
+            pTooltipComponents.add(Component.literal("Last block changed at " + pStack.get(ModDataComponentTypes.COORDINATES)));
         }
 
         super.appendHoverText(pStack, pContext, pTooltipComponents, pTooltipFlag);
