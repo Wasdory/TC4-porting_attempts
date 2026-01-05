@@ -14,6 +14,7 @@ import net.minecraftforge.registries.RegistryObject;
 import net.wasdory.tutorialmod.Item.ModItems;
 import net.wasdory.tutorialmod.TutorialMod;
 import net.wasdory.tutorialmod.block.custom.ArcaneBlock;
+import net.wasdory.tutorialmod.block.custom.ThaumiumLambBlock;
 
 import java.util.function.Supplier;
 
@@ -69,6 +70,11 @@ public class ModBlocks {
             () -> new DoorBlock(BlockSetType.IRON, BlockBehaviour.Properties.of().strength(3f).requiresCorrectToolForDrops().noOcclusion()));
     public static final RegistryObject<TrapDoorBlock> MAGIC_STONE_TRAPDOOR = registryBlock("magic_stone_trapdoor",
             () -> new TrapDoorBlock(BlockSetType.IRON, BlockBehaviour.Properties.of().strength(3f).requiresCorrectToolForDrops().noOcclusion()));
+
+
+    public static final RegistryObject<Block> THAUMIUM_LAMP_BLOCK = registryBlock("thaumium_lamp_block",
+            () -> new ThaumiumLambBlock(BlockBehaviour.Properties.of().strength(3f)
+                    .lightLevel(state -> state.getValue(ThaumiumLambBlock.CLICKED) ? 15 : 0)));
 
 
 

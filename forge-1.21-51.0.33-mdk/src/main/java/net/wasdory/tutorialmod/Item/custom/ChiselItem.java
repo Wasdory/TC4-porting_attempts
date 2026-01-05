@@ -4,7 +4,6 @@ import net.minecraft.client.gui.screens.Screen;
 import net.minecraft.network.chat.Component;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.server.level.ServerPlayer;
-import net.minecraft.sounds.SoundEvent;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.sounds.SoundSource;
 import net.minecraft.world.InteractionResult;
@@ -17,6 +16,7 @@ import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.wasdory.tutorialmod.block.ModBlocks;
+import net.wasdory.tutorialmod.component.ModDataComponentTypes;
 
 import java.util.List;
 import java.util.Map;
@@ -47,6 +47,8 @@ public class ChiselItem extends Item {
                 pContext.getItemInHand().hurtAndBreak(1, ((ServerLevel) level), ((ServerPlayer) pContext.getPlayer()),
                         item -> pContext.getPlayer().onEquippedItemBroken(item, EquipmentSlot.MAINHAND));
                 level.playSound(null, pContext.getClickedPos(), SoundEvents.GRINDSTONE_USE, SoundSource.BLOCKS);
+
+                pContext.getItemInHand().set(ModDataComponentTypes.COORDINATES.get(), pContext.getClickedPos());
             }
         }
 
@@ -59,6 +61,10 @@ public class ChiselItem extends Item {
             pTooltipComponents.add(Component.translatable("tooltip.tutorialmod.chisel.shift_down"));
         } else {
             pTooltipComponents.add(Component.translatable("tooltip.tutorialmod.chisel"));
+        }
+
+        if (pStack.get(ModDataComponentTypes.COORDINATES.get()) != null) {
+            pTooltipComponents.add(Component.literal("Last block changed at " + pStack.get(ModDataComponentTypes.COORDINATES.get())));
         }
 
         super.appendHoverText(pStack, pContext, pTooltipComponents, pTooltipFlag);

@@ -57,6 +57,8 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.MAGIC_STONE_DOOR.get());
                         output.accept(ModBlocks.MAGIC_STONE_TRAPDOOR.get());
 
+                        output.accept(ModBlocks.THAUMIUM_LAMP_BLOCK.get());
+
                     }).build());
 
     public static void register(IEventBus eventBus) {

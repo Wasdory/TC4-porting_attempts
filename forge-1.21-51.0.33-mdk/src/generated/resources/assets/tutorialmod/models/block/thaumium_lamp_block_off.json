@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "tutorialmod:block/thaumium_lamp_block_off"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "clicked=false": {
+      "model": "tutorialmod:block/thaumium_lamp_block_off"
+    },
+    "clicked=true": {
+      "model": "tutorialmod:block/thaumium_lamp_block_on"
+    }
+  }
+}

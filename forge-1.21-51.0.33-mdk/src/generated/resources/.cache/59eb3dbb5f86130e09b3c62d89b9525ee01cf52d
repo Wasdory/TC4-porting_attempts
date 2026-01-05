@@ -1,4 +1,4 @@
-// 1.21	2025-12-28T21:13:31.9543142	Loot Tables
+// 1.21	2026-01-04T21:20:51.879798208	Loot Tables
 63ecbee17f4c33f5e7c34557f1cd7d5bcec76bb3 data/tutorialmod/loot_table/blocks/amber_ore.json
 6ba9b53da6359944c026c964fd8de3d1c72f9709 data/tutorialmod/loot_table/blocks/deepslate_amber_ore.json
 2179177ebd3cd2ce797c2f03a5340dd3a06f35da data/tutorialmod/loot_table/blocks/magic_stone.json
@@ -12,4 +12,5 @@ de0bd5c430da34be67ce1c09ec2b47dfc2551287 data/tutorialmod/loot_table/blocks/magi
 80dcefa19a96237538e019644a8c8fa3a55def51 data/tutorialmod/loot_table/blocks/magic_stone_trapdoor.json
 4f0df0e27a7fb18243b84127d093674d636b3a09 data/tutorialmod/loot_table/blocks/magic_stone_wall.json
 8392f82872a2c2dd466751c503687a7ae8342e58 data/tutorialmod/loot_table/blocks/thaumium_block.json
+4bc742bb728e5a87f58efbb140da0afb68633542 data/tutorialmod/loot_table/blocks/thaumium_lamp_block.json
 bfbe09af0042059fee52adec71c83705abdb327b data/tutorialmod/loot_table/blocks/void_metal_block.json

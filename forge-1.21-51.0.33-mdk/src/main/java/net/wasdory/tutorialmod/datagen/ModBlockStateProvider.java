@@ -1,14 +1,17 @@
 package net.wasdory.tutorialmod.datagen;
 
 import net.minecraft.data.PackOutput;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.level.block.Block;
 import net.minecraftforge.client.model.generators.BlockStateProvider;
+import net.minecraftforge.client.model.generators.ConfiguredModel;
 import net.minecraftforge.client.model.generators.ModelFile;
 import net.minecraftforge.common.data.ExistingFileHelper;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.wasdory.tutorialmod.TutorialMod;
 import net.wasdory.tutorialmod.block.ModBlocks;
+import net.wasdory.tutorialmod.block.custom.ThaumiumLambBlock;
 
 public class ModBlockStateProvider extends BlockStateProvider {
     public ModBlockStateProvider(PackOutput output, ExistingFileHelper exFileHelper) {
@@ -44,9 +47,28 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockItem(ModBlocks.MAGIC_STONE_PRESSURE_PLATE);
         blockItem(ModBlocks.MAGIC_STONE_FENCE_GATE);
         blockItem(ModBlocks.MAGIC_STONE_TRAPDOOR, "_bottom");
+
+        customLampBlock();
     }
 
-    private void blockWithItem(RegistryObject<Block> blockRegistryObject) {
+
+
+    private void customLampBlock() {
+    getVariantBuilder(ModBlocks.THAUMIUM_LAMP_BLOCK.get()).forAllStates(state -> {
+        if(state.getValue(ThaumiumLambBlock.CLICKED)) {
+            return new ConfiguredModel[]{new ConfiguredModel(models().cubeAll("thaumium_lamp_block_on",
+                    ResourceLocation.fromNamespaceAndPath(TutorialMod.MOD_ID, "block/" + "thaumium_lamp_block_on")))};
+        } else {
+            return new ConfiguredModel[]{new ConfiguredModel(models().cubeAll("thaumium_lamp_block_off",
+                    ResourceLocation.fromNamespaceAndPath(TutorialMod.MOD_ID,  "block/" + "thaumium_lamp_block_off")))};
+        }
+    });
+    simpleBlockItem(ModBlocks.THAUMIUM_LAMP_BLOCK.get(), models().cubeAll("thaumium_lamp_block_on",
+            ResourceLocation.fromNamespaceAndPath(TutorialMod.MOD_ID, "block/" + "thaumium_lamp_block_on")));
+}
+
+
+private void blockWithItem(RegistryObject<Block> blockRegistryObject) {
         simpleBlockWithItem(blockRegistryObject.get(), cubeAll(blockRegistryObject.get()));
     }
 

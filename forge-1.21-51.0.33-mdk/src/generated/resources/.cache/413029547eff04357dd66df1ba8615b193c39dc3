@@ -1,4 +1,4 @@
-// 1.21	2025-12-28T21:13:31.955851425	Block States: tutorialmod
+// 1.21	2026-01-04T21:20:51.880872159	Block States: tutorialmod
 3e90be614894c82dfca793789093fd4a4bbc81be assets/tutorialmod/blockstates/amber_ore.json
 61450a95c5f6d0a1a452146f7a0c908961c83b4d assets/tutorialmod/blockstates/arcane_block.json
 a34e685d7fd7b012dc16b6a97e16111640fbf3a4 assets/tutorialmod/blockstates/deepslate_amber_ore.json
@@ -13,6 +13,7 @@ d83297e70e59a0c0874b3e58547f2ca4e606b7af assets/tutorialmod/blockstates/magic_st
 f57bd9d07f24ffc06c5bf8eb1ff5ac12b197e4d9 assets/tutorialmod/blockstates/magic_stone_trapdoor.json
 ac5c9d466de2b6276a7cf08bd42c25d80461c477 assets/tutorialmod/blockstates/magic_stone_wall.json
 daf67dcaf5d9d732eac8cea77ae200cf1e98c210 assets/tutorialmod/blockstates/thaumium_block.json
+61129f7922884c9f5cd84af1a5a5d93eae10b688 assets/tutorialmod/blockstates/thaumium_lamp_block.json
 16c22c1e1ac21fd986dcbd788142273a09a1c978 assets/tutorialmod/blockstates/void_metal_block.json
 6adbb408a95e8c4bfbd826aa40504bd6d7bc3cdc assets/tutorialmod/models/block/amber_ore.json
 f94659bcca4e63f71bf10cb44f39121a63258a41 assets/tutorialmod/models/block/arcane_block.json
@@ -48,6 +49,8 @@ a4767980b10d858230497807fef447f2bd73ecc4 assets/tutorialmod/models/block/magic_s
 14fb1e003b2bbf4b1fb44ec47030bd5e9e94f3c4 assets/tutorialmod/models/block/magic_stone_wall_side.json
 541738956cfcb33fbcc95c0faa494627d488ed1f assets/tutorialmod/models/block/magic_stone_wall_side_tall.json
 8fdf950b35051211b8bb4fa1e2b314870f0cce7e assets/tutorialmod/models/block/thaumium_block.json
+8291f214ce2bd4c5324b9f4ab9fdf8ed99b034e3 assets/tutorialmod/models/block/thaumium_lamp_block_off.json
+e2b729e182606b5ae811aa53b68e0182e4c72244 assets/tutorialmod/models/block/thaumium_lamp_block_on.json
 a3bc34998707bfa1db87d09a76751032f77c30df assets/tutorialmod/models/block/void_metal_block.json
 96f431ff76a9eab92ad4b0983c79c94ffa706a4a assets/tutorialmod/models/item/amber_ore.json
 dd17a7ecf0261ce65f0bb9d84802bf4d1ca54591 assets/tutorialmod/models/item/arcane_block.json
@@ -59,4 +62,5 @@ cddeeece25aee8fb04fafc1a9a1fefb267e452d0 assets/tutorialmod/models/item/magic_st
 f377b0e12da2cd9ca31bd6e233dbb5b3425e00ac assets/tutorialmod/models/item/magic_stone_stairs.json
 b0b8e700cb2ba8cd882e501555a3b118b881e150 assets/tutorialmod/models/item/magic_stone_trapdoor.json
 a8b7cb91e53eae5514a1840e0bb36416d2aa9bee assets/tutorialmod/models/item/thaumium_block.json
+a259207807a1a7729836253c85c622007b69af5b assets/tutorialmod/models/item/thaumium_lamp_block.json
 f5bccf91d2585b2ff7ad39f31881a766b23ce24a assets/tutorialmod/models/item/void_metal_block.json
